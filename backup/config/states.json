@@ -1,0 +1,80 @@
+{
+  "states": {
+    "AVAILABILITY_CONTROL": [
+      {
+        "type": "text",
+        "text": "Complete delivery",
+        "exact": true
+      },
+      {
+        "type": "text",
+        "text": "Open Quantity",
+        "exact": true
+      }
+    ],
+    "HEADER_PARTNERS": [
+      {
+        "type": "text",
+        "text": "Partn.Funct.",
+        "exact": true
+      },
+      {
+        "type": "text",
+        "text": "Partner",
+        "exact": true
+      }
+    ],
+    "HEADER_DATA": [
+      {
+        "type": "text",
+        "text": "Partners",
+        "exact": true
+      },
+      {
+        "type": "text",
+        "text": "Order Type",
+        "exact": true
+      }
+    ],
+    "OVERVIEW": [
+      {
+        "type": "text",
+        "text": "All items",
+        "exact": true
+      },
+      {
+        "type": "text",
+        "text": "Item detail",
+        "exact": true
+      }
+    ],
+    "VA01_INICIAL": [
+      {
+        "type": "role",
+        "role": "textbox",
+        "name": "Sales Organization",
+        "exact": true
+      },
+      {
+        "type": "role",
+        "role": "textbox",
+        "name": "Distribution Channel",
+        "exact": true
+      },
+      {
+        "type": "role",
+        "role": "textbox",
+        "name": "Division",
+        "exact": true
+      }
+    ],
+    "TELA_PRINCIPAL": [
+      {
+        "type": "role",
+        "role": "textbox",
+        "name": "Enter transaction code",
+        "exact": true
+      }
+    ]
+  }
+}

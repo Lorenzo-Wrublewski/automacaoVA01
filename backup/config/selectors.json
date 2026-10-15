@@ -1,0 +1,142 @@
+{
+  "loading": {
+    "selectors": [
+      "#ur-loading-itm2"
+    ]
+  },
+  "status_bar": {
+    "text": "[id=\"wnd[0]/sbar_msg-txt\"]",
+    "icon": "[id=\"wnd[0]/sbar_img\"]"
+  },
+  "popup": {
+    "containers": [
+      ".lsPopupWindow",
+      "[role=\"dialog\"]",
+      "[id=\"wnd[1]\"]",
+      "[id=\"wnd[2]\"]",
+      "[id=\"wnd[3]\"]"
+    ],
+    "title_selectors": [
+      "[id$='-ttltxt']",
+      ".lsPopupWindow__title",
+      ".lsPopupWindow--title"
+    ],
+    "close_selectors": [
+      "[id$='-close']"
+    ],
+    "close_titles": [
+      "Cancel (Escape)",
+      "Cancel",
+      "Close",
+      "Continue (Enter)",
+      "Continue",
+      "OK"
+    ],
+    "close_button_names": [
+      "OK",
+      "Continue",
+      "Cancel",
+      "Close"
+    ]
+  },
+  "transaction": {
+    "field": {
+      "type": "role",
+      "role": "textbox",
+      "name": "Enter transaction code",
+      "exact": true
+    }
+  },
+  "va01_initial": {
+    "order_type": [
+      {
+        "type": "id",
+        "id": "M0:46:::2:22"
+      },
+      {
+        "type": "id",
+        "id": "M0:46:::2:22-r"
+      }
+    ],
+    "sales_org": {
+      "type": "role",
+      "role": "textbox",
+      "name": "Sales Organization",
+      "exact": true
+    },
+    "distribution_channel": {
+      "type": "role",
+      "role": "textbox",
+      "name": "Distribution Channel",
+      "exact": true
+    },
+    "division": {
+      "type": "role",
+      "role": "textbox",
+      "name": "Division",
+      "exact": true
+    }
+  },
+  "overview_header": {
+    "sold_to_party": {
+      "type": "role",
+      "role": "textbox",
+      "name": "Sold-To Party",
+      "exact": true
+    },
+    "ship_to_party": {
+      "type": "role",
+      "role": "textbox",
+      "name": "Ship-To Party",
+      "exact": true
+    },
+    "purchase_order": {
+      "type": "role",
+      "role": "textbox",
+      "name": "Customer Purchase Order Number",
+      "exact": true
+    },
+    "po_date": {
+      "type": "role",
+      "role": "textbox",
+      "name": "Customer Purchase Order Date",
+      "exact": true
+    }
+  },
+  "header_details": {
+    "button": {
+      "type": "title",
+      "title": "Display header details",
+      "exact": true
+    },
+    "partners_tab": {
+      "type": "text",
+      "text": "Partners",
+      "exact": true
+    }
+  },
+  "overview": {
+    "item_detail_tab": {
+      "type": "text",
+      "text": "Item detail",
+      "exact": true
+    },
+    "create_item": {
+      "type": "title",
+      "title": "Create",
+      "exact": true
+    }
+  },
+  "toolbar": {
+    "back": {
+      "type": "text",
+      "text": "Back",
+      "exact": true
+    },
+    "save": {
+      "type": "text",
+      "text": "Save",
+      "exact": true
+    }
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "_comment": "Locators rápidos: usam o texto visual do SAP + input seguinte. Fallback por role fica só como segunda opção.",
+  "fields": {
+    "material": {
+      "kind": "text",
+      "locator": [
+        {
+          "type": "label_input",
+          "label": "Material",
+          "label_index": 1,
+          "input_index": 1
+        },
+        {
+          "type": "role",
+          "role": "textbox",
+          "name": "Material",
+          "exact": true
+        }
+      ]
+    },
+    "order_quantity": {
+      "kind": "text",
+      "locator": [
+        {
+          "type": "label_input",
+          "label": "Order Quantity",
+          "label_index": 1,
+          "input_index": 1
+        },
+        {
+          "type": "role",
+          "role": "textbox",
+          "name": "Order Quantity",
+          "exact": true
+        }
+      ]
+    },
+    "first_delivery_date": {
+      "kind": "text",
+      "locator": [
+        {
+          "type": "label_input",
+          "label": "First delivery date",
+          "label_index": 1,
+          "input_index": 2
+        },
+        {
+          "type": "role",
+          "role": "textbox",
+          "name": "First delivery date",
+          "exact": true
+        }
+      ]
+    },
+    "usage": {
+      "kind": "dropdown",
+      "locator": {
+        "type": "role",
+        "role": "textbox",
+        "name": "Usage Indicator",
+        "exact": true
+      }
+    },
+    "customer_material": {
+      "kind": "text",
+      "locator": [
+        {
+          "type": "label_input",
+          "label": "Customer Material",
+          "label_index": 1,
+          "input_index": 1
+        },
+        {
+          "type": "role",
+          "role": "textbox",
+          "name": "Customer Material",
+          "exact": true
+        }
+      ]
+    },
+    "plant": {
+      "kind": "text",
+      "locator": [
+        {
+          "type": "label_input",
+          "label": "Plant",
+          "label_index": 1,
+          "input_index": 1
+        },
+        {
+          "type": "role",
+          "role": "textbox",
+          "name": "Plant",
+          "exact": true
+        }
+      ]
+    }
+  }
+}

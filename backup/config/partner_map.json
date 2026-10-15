@@ -1,0 +1,10 @@
+{
+  "_comment": "Somente funções confirmadas no mapeamento atual.",
+  "fixed_columns": {
+    "transportadora": "Forwarding agent",
+    "redespacho": "Carrier",
+    "representante": null,
+    "vendedor": null,
+    "embaixador": null
+  }
+}

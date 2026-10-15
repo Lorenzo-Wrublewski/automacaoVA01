@@ -1,0 +1,94 @@
+{
+  "mensagens": [
+    {
+      "id": "SAVE001",
+      "padrao_texto": "Component Sales Ord\\.\\s*(\\d+)\\s*has been saved",
+      "tipo_regex": true,
+      "contexto": "salvamento",
+      "severidade": "sucesso",
+      "acao": "capturar_ov",
+      "descricao": "OV criada com sucesso"
+    },
+    {
+      "id": "ITEM_DATE_PAST",
+      "padrao_texto": "Date is in the past:\\s*Please check",
+      "tipo_regex": true,
+      "contexto": "item",
+      "severidade": "warning",
+      "acao": "reenter",
+      "descricao": "Data de entrega no passado; confirma warning com Enter e continua"
+    },
+    {
+      "id": "HDR001",
+      "padrao_texto": "Employee .* is marked for deletion",
+      "tipo_regex": true,
+      "contexto": "cabecalho",
+      "severidade": "warning",
+      "acao": "reenter",
+      "descricao": "Warning de parceiro/employee; repetir Enter"
+    },
+    {
+      "id": "ITEM001",
+      "padrao_texto": "Material .* has status:.*Expired",
+      "tipo_regex": true,
+      "contexto": "item",
+      "severidade": "info",
+      "acao": "ignorar",
+      "descricao": "Status Expired informativo; continuar fluxo"
+    },
+    {
+      "id": "ITEM002",
+      "padrao_texto": "Material .* does not exist",
+      "tipo_regex": true,
+      "contexto": "item",
+      "severidade": "erro",
+      "acao": "pular_item",
+      "descricao": "Material inexistente"
+    },
+    {
+      "id": "ITEM003",
+      "padrao_texto": "Material .* has status: Order embargo",
+      "tipo_regex": true,
+      "contexto": "item",
+      "severidade": "erro",
+      "acao": "pular_item",
+      "descricao": "Material com embargo"
+    },
+    {
+      "id": "ITEM004",
+      "padrao_texto": "Material .* has status: Order/Production end",
+      "tipo_regex": true,
+      "contexto": "item",
+      "severidade": "erro",
+      "acao": "pular_item",
+      "descricao": "Material descontinuado"
+    },
+    {
+      "id": "ITEM005",
+      "padrao_texto": "Material .* is not defined for sales org",
+      "tipo_regex": true,
+      "contexto": "item",
+      "severidade": "erro",
+      "acao": "pular_item",
+      "descricao": "Material não definido para organização de vendas"
+    },
+    {
+      "id": "ITEM006",
+      "padrao_texto": "Item category .* not found",
+      "tipo_regex": true,
+      "contexto": "item",
+      "severidade": "erro",
+      "acao": "pular_item",
+      "descricao": "Categoria do item não encontrada"
+    },
+    {
+      "id": "ITEM007",
+      "padrao_texto": "Item .* rounded to",
+      "tipo_regex": true,
+      "contexto": "item",
+      "severidade": "warning",
+      "acao": "pular_item",
+      "descricao": "Quantidade arredondada"
+    }
+  ]
+}
